@@ -4,6 +4,7 @@ game.resources = [
     {name: "gripe_run_right",     type:"image",	src: "data/img/sprite/gripe_run_right.png"},
     {name:"spinning_coin_gold", type:"image", src:"data/img/sprite/spinning_coin_gold.png"},
     {name:"wheelie_right",type:"image",src:"data/img/sprite/wheelie_right.png"},
+     {name: "32x32_font",          type:"image", src: "data/img/font/32x32_font.png"},
     {name:"area01",type:"tmx",src:"data/map/workout.tmx"}
     /* Graphics.
      * @example
