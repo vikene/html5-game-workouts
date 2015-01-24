@@ -148,7 +148,7 @@ game.CoinEntity = me.CollectableEntity.extend({
   // an object is touched by something (here collected)
   onCollision : function (response, other) {
     // do something when collected
- 
+        game.data.score +=200;
     // make sure it cannot be collected "again"
     this.body.setCollisionMask(me.collision.types.NO_OBJECT);
  
