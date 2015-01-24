@@ -5,7 +5,7 @@ game.resources = [
     {name:"spinning_coin_gold", type:"image", src:"data/img/sprite/spinning_coin_gold.png"},
     {name:"wheelie_right",type:"image",src:"data/img/sprite/wheelie_right.png"},
      {name: "32x32_font",          type:"image", src: "data/img/font/32x32_font.png"},
-    {name:"area01",type:"tmx",src:"data/map/workout.tmx"}
+    {name:"area01",type:"tmx",src:"data/map/workout.tmx"},
     /* Graphics.
      * @example
      * {name: "example", type:"image", src: "data/img/example.png"},
@@ -31,4 +31,12 @@ game.resources = [
      * @example
      * {name: "example_sfx", type: "audio", src: "data/sfx/"}
      */
+    {name: "dst-inertexponent", type: "audio", src: "data/bgm/"},
+   
+  /* 
+  * Sound effects. 
+  */
+  {name: "cling", type: "audio", src: "data/sfx/"},
+  {name: "stomp", type: "audio", src: "data/sfx/"},
+  {name: "jump",  type: "audio", src: "data/sfx/"}
 ];
